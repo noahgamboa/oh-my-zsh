@@ -28,18 +28,18 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 #### via curl
 
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/noahgamboa/oh-my-zsh/master/tools/install.sh)"
 ```
 
 #### via wget
 
 ```shell
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/noahgamboa/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
 ## Using Oh My Zsh
 
-### Plugins
+### Plugins (from og)
 
 Oh My Zsh comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) directory and/or the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) to see what's currently available.
 
@@ -68,13 +68,7 @@ _Robby's theme is the default one. It's not the fanciest one. It's not the simpl
 Once you find a theme that you want to use, you will need to edit the `~/.zshrc` file. You'll see an environment variable (all caps) in there that looks like:
 
 ```shell
-ZSH_THEME="robbyrussell"
-```
-
-To use a different theme, simply change the value to match the name of your desired theme. For example:
-
-```shell
-ZSH_THEME="agnoster" # (this is one of the fancy ones)
+ZSH_THEME="swaggedout"
 ```
 
 Open up a new terminal window and your prompt should look something like...

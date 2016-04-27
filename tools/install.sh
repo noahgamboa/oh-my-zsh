@@ -53,7 +53,7 @@ main() {
     echo "Error: git is not installed"
     exit 1
   }
-  env git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git $ZSH || {
+  env git clone --depth=1 https://github.com/noahgamboa/oh-my-zsh.git $ZSH || {
     printf "Error: git clone of oh-my-zsh repo failed\n"
     exit 1
   }
@@ -106,7 +106,7 @@ main() {
   echo ' / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ '
   echo '/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / '
   echo '\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  '
-  echo '                        /____/                       ....is now installed!'
+  echo '                        /____/                       ....Noah Gamboa edition is now installed!'
   echo ''
   echo ''
   echo 'Please look over the ~/.zshrc file to select plugins, themes, and options.'
