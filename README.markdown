@@ -84,8 +84,24 @@ If you're feeling feisty, you can let the computer select one randomly for you e
 ZSH_THEME="random" # (...please let it be pie... please be some pie..)
 ```
 
+## Here's what else you should do to get yo sweet ass terminal running:
 
-## Advanced Topics
+install solarized colors:
+```
+https://github.com/tomislav/osx-terminal.app-colors-solarized
+```
+
+set those preferences to incosolata size 15:
+
+```
+https://github.com/google/fonts/tree/master/ofl/inconsolata
+```
+
+now just go set up your vim stuff...
+
+#### BEYOND HERE I HAVEN'T DONE ANY EDITING
+
+## Advanced Topics 
 
 If you're the type that likes to get their hands dirty, these sections might resonate.
 
